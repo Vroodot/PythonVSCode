@@ -20,7 +20,9 @@ NOTE: Be sure to call `main` at the bottom of the file.
 """
 
 # First let's define convert using `def`
-def convert(text):
+# I'm assuming that return types and static typing works similarly to
+# GDscript, we shall see!
+def convert(text:str ) -> str:
     # Save converted text as a variable//
     # Chain replace functions on the text argument
     # "find and" replace(from: str, to: str)
