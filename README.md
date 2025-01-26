@@ -1,1 +1,1 @@
-Consider this my scratch pad as I learn Python
+Raw submissions and scratch pad for CS50P
