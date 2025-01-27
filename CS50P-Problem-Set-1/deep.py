@@ -35,4 +35,7 @@ I'm sure there are more explicit methods that I could use to see if the user ans
 Had a couple of minor syntax errors, just unlearning Godot specific stuff and learning the Python Docs, but it is working as intended and ready to submit!
 
 After re-reading my lecture notes, I decided I probably ought to do a match statement just to get them into my toolbelt.
+
+Oh, almost submitted a bad design. If you read the instructions it explains the instructions.
+The Spec required that inputs with excess whitespace would also be valid. So I included a call to `.strip()`
 """
