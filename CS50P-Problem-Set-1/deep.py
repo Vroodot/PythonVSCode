@@ -13,10 +13,11 @@ Output Yes if the user inputs "42", (case-insensitively!) "forty-two", or "forty
 answer: str = input("What is the Answer to the Great Question of Life, the Universe, and Everything?!?! ").lower()
 
 
-if answer == "forty-two" or answer == "forty two" or answer == "42": 
-    print("Yes")
-else:
-    print("No")
+match answer:
+    case "forty-two" | "42" | "forty two":
+        print("Yes")
+    case _:
+        print("No")
 
 
 """
